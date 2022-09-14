@@ -15,11 +15,19 @@ function sortear1() {
    ide.innerHTML= livros[quallivro]
    console.log(quallivro)
 }
-    console.log(livros)
-   
-    
-   
-   
- 
-   
   
+var simeao1=0
+var juda1=0
+
+   
+    function juda() {
+       juda1 += 10
+        
+    }
+   
+    function sim() {
+        simeao1 += 10
+     }
+ 
+   function res1(){
+  document.getElementById("resultadotribos").innerHTML= " simeão: "+ simeao1 + " juda: " + juda1}
